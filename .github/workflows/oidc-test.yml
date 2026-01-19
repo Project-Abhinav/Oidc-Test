@@ -28,6 +28,6 @@ jobs:
         run: echo "Hello from GitHub OIDC" > oidc-proof.txt
 
       - name: Upload file to S3
-        run: aws s3 cp oidc-proof.txt s3://oidc-test-bucket-<yourname>/
+        run: aws s3 cp oidc-proof.txt s3://oidc-test-bucket-github/
 
 
